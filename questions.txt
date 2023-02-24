@@ -1,0 +1,63 @@
+Tell us about the last team you built. How many people were or are on the team and what were their roles? How did you find and convince each member to join the team? Would you hire everyone on the team again? If not, who and why?
+
+I’ll tell you about the team at the company I’m working for at the moment (Tul).
+We’re 22 people, in three squads (at the present). Each of three squads develop software for different products: Team A is responsible for the electronic wallet and some other related products. Team B is responsible for the credit offerings (to hardware store owners, main target of Tul). Lastly Team C is devoted to the Core Banking System. 
+
+Team A: 4 back devs, 1 front, 2 mobiles, 1 QA and 1 team lead
+Team B: 5 back devs, 1 front, 2 mobiles, 1 QA and 1 team lead
+Team C: 2 back1 and other roles carried out by members of team A and team B (1 front, 1 QA, 1 team lead)
+
+Team lead of B is also the lead for Team C. Team leads report directly to me.
+
+Regarding the hiring, some people were already at the team, others were hired with my approval and others were hired by the SVP of Engineering. The decision about hiring a candidate doesn’t rely on one person but as Director / Manager I can reject candidates.  I also approved candidates for my vertical and for the other ones.
+
+Over the 21 people, I interviewed and approved 5 and the other came from other managers. I had to fire 3 people hired by other managers/directors, reject 2 candidates after their test period and also I had to fire 1 person I hired myself. Also rejected 5 candidates hired by other Managers or the SVP (when I got the “power” to do it). Also I approved around 6 or 7 candidates that ended up being hired after I came to the company. Additionally, I think I must have approved hiring of around 15 candidates for other verticals, most of them finally hired.
+
+Returning to the team, we have 3 people in the test period and 2 in “performance improvement plan” (one of them because of productivity. the other because of some pending improvements in soft skills). I’d say that, after having dealt with low-performers, now we can say we have a team that looks as we want. I’d hire most of them again (but this is something I wouldn’t have been able to say 6 months ago).
+
+I think the key is being perfectly clear with expectations. In fact, we have slides about expectations! Being explicit and systematic and formal about expectations (our culture, our way of “getting things done”, the way we work) is an honest act with the other and also saves lots of time and disappointment for everybody. Secondarily, it shows the existence of an organized team.
+
+There are also other attraction factors which are technological novelty and the startup experience. It’s true that one can learn a lot very rapidly in a startup. Particularly in the team I’m managing, I think that the fintech domain it’s quite  interesting. I emphasize that we are quite organized and that there is a good team vibe, room for career development and that we love making software that works and solves problems for real people and that this makes us really happy (which is totally true).
+
+
+
+How did your engineering team collaborate with the product team on your last projects? For example how did the teams decide and define the features that should be worked on? Was there much collaboration between product and engineering?
+
+Yes, there’s a lot of collaboration and we’re increasing it as time passes. I’d like to enumerate interactions between Engineering and Product:
+
+1- Product writes stories. 
+2- Engineering double checks the logical consistency of stories.
+3- Engineering and Product do refinements to understand more about story
+4- Product is in the dailies, not only for support but also for proactively detecting misunderstanding of business logic.
+5- Engineering tells what would be the best selection of features to be done in a specific moment / sprint ( because of the technical characteristics of the stories, team context, technical dependencies, and also velocity convenience). It’s true that Product knows (or should know) what to do but Engineering knows “the tactics”, which is better first and what should wait a little more.
+6- Engineering usually finds more ways (sometimes better, sometimes worse) of accomplishing the desired functionality.
+7- Engineering demands more knowledge about de Business and analytical aspects of it.
+8-We’re starting to measure stories according to their impact on KPIs.
+9-Engineering and Product pact dates for commitments.
+10-We “co-ellaborate” the structure of the story documents, to minimize errors and to raise awareness about stories and a careful reading of them among devs.
+11-We (Director of Engineering and Product Manager) exchange feedback about people in our teams 
+12-Engineering absorb the vision, the strategy, of what is required listening to Product 
+13-We collaborate in the resolution of escalated support issues.
+14-We constantly look for ways to improve story comprehension, readability and expressiveness.
+15-Product participates in onboardings telling devs about functionalities.
+16-Product and Engineering negotiate how to simplify or what to leave out of the sprint when planned tasks can’t be done totally.
+17-Engineering at the moment pays special attention to keeping MVPs really MVPs (just do what is strictly necessary). So, Engineering may propose another MVPs. Also proposes alternative ways of delivering more value in a shorter time. (Sometimes Product doesn’t know about the complexity-value relationship of each story).
+
+Tell us about a time when you decided to implement a less than ideal solution to save time and time when you overengineered a solution and regretted it.
+
+Saving with less than ideal: 
+Recently at the end of an important sprint we chose that a microservice that had a catalog of types of places (doesn’t change frequently) wouldn’t have neither a db associated (temporarily) nor a UI to administer types. Just Json in microservice resources exposed via REST. This example (real situation) may sound naive but holds the structure of this type of decisions:
+1- Keeping time of the team in valuable things
+2- Prioritize what’s more important
+3- Try to do “less than ideal” things without weakening mantainability. In the above sitution that’s just define a good interface for the micro, don’t impact the rest of the system isolating the technical debt.
+
+Overengineering:
+When I was less experienced I used to overengineer much more. Not in the last years. Sometimes it’s not about overengineering, it’s about making decisions with little information. Without enough information there are some architectural decisions that are harder to make.
+
+For instance, in my current job we decided to create a micro for a domain that didn’t evolve. At the moment of the decision micro was clearly tiny but we thought it was going to evolve into something bigger but it didn’t happen.
+
+
+
+Who is the person you directly managed for the most time? How long were you their manager and how did you help them grow? Was the person initially an A player? If not, were you able to help the person grow into one?
+
+His name was J (just the initial, just for not mentioning people without permission) and we worked together 

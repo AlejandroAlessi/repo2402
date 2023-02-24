@@ -1,0 +1,24 @@
+{ 
+    "pagination":{
+      "limit":2,
+      "page": 1,
+      "total": 2,
+      "next_page": "true"
+    },
+    "content":[
+      {
+         "agent": "agent_1",
+         "public_id": "public_id_1",
+         "title": "title_1",
+         "title_image_full": "image_1",
+         "title_image_thumb": "thumb_1"
+      },
+      {
+         "agent": "agent_2",
+         "public_id": "public_id_2",
+         "title": "title_2",
+         "title_image_full": "image_2",
+         "title_image_thumb": "thumb_2"
+      }
+    ]
+    }
